@@ -1,0 +1,29 @@
+{
+  "name": "sonos-button",
+  "version": "1.0.0",
+  "description": "Start playing music on all Sonos speakers when a button is pushed",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlanglinais/sonos-button.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlanglinais/sonos-button/issues"
+  },
+  "homepage": "https://github.com/tlanglinais/sonos-button#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
